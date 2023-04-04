@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+<form action="{% url 'question_form' %}" method="POST">
+    {% csrf_token %}
+        <br>
+    Выберите ваш дивизион*
+    {{ form_enterprise.division }}
+        <br>
+    Выберите ваше предприятие*
+    {{ form_add_question.enterprise }}
+        <br>
+    Название предприятия*
+    {{ form_enterprise.name }}
+        <br>
+    Электронная почта, на которую необходимо отправить ответ(можно не
+    корпоративную)*
+    {{ form_add_question.email }}
+        <br>
+    Задайте ваш вопрос ген. директору Госкорпорации "Росатом" А.Е.
+    Лихачеву*
+    {{ form_add_question.question }}
+        <br>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-primary" type="submit">Завершить опрос</button>
+    </div>
+</form>
+{% endblock %}
+
+
+

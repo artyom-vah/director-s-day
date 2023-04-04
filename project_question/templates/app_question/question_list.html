@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h2>Таблица 1. Список вопросов:</h2>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Дата и время</th>
+        <th>Предприятие</th>
+        <th>Вопрос</th>
+        <th>E-mail</th>
+    </tr>
+
+    <tbody>
+    {% for q in questions %}
+    <tr>
+        <td>{{ q.date_time }}</td>
+        <td> {{ q.enterprise }}</td>
+        <td> {{ q.question }}</td>
+       <td> {{ q.email }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<br><br>
+
+<h2>Таблица 2. Статистика поданных вопросов:</h2>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Дивизион</th>
+      <th>Предприятие</th>
+      <th>Количество поданных вопросов</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in stats %}
+      <tr>
+        <td>{{ row.enterprise__division__name }}</td>
+        <td>{{ row.enterprise__name }}</td>
+        <td>{{ row.question_count }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}
