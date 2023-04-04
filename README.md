@@ -134,12 +134,12 @@ http://127.0.0.1:8000/admin/
 **Пример готового проекта**
 
 ***Админка:***
-![Admin 1](https://raw.githubusercontent.com/artyom-vah/question_list/main/screens/admin_1.jpg)
-![Admin 2](https://raw.githubusercontent.com/artyom-vah/question_list/main/screens/admin_2.jpg)
-![Admin 3](https://raw.githubusercontent.com/artyom-vah/question_list/main/screens/admin_3.jpg)
+![Admin_1](https://github.com/artyom-vah/director-s-day/blob/main/screens/admin_1.jpg)
+![Admin_2](https://github.com/artyom-vah/director-s-day/blob/main/screens/admin_2.jpg)
+![Admin_3](https://github.com/artyom-vah/director-s-day/blob/main/screens/admin_3.jpg)
 ***Вывод в браузер:***
-![brows_1](https://raw.githubusercontent.com/artyom-vah/question_list/main/screens/brows_1.jpg)
-![brows_2](https://raw.githubusercontent.com/artyom-vah/question_list/main/screens/brows_2.jpg)
+![brows_1](https://github.com/artyom-vah/director-s-day/blob/main/screens/brows_1.jpg)
+![brows_2](https://github.com/artyom-vah/director-s-day/blob/main/screens/brows_2.jpg)
 
 
 
