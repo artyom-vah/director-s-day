@@ -95,7 +95,7 @@ Cистема должна состоять из двух форм:
 1. Клонируйте репозиторий и перейдите в него в командной строке:
 
 ```
-git clone https://github.com/artyom-vah/tree_menu.git
+git clone https://github.com/artyom-vah/director-s-day.git
 ```
 
 2. Установите и активируйте виртуальное окружение
